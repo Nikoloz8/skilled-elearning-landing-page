@@ -212,7 +212,7 @@ footer {
     
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1235px) {
     
     picture {
         display: none;
@@ -223,6 +223,10 @@ footer {
 
     .course img {
         left: 10%;
+    }
+
+    .advertisment{
+        padding: 0 50px 0 50px;
     }
 }
 
@@ -262,6 +266,10 @@ footer {
     .course-check h3{
         font-size: 1.5rem;
     }
+    
+    footer{
+        margin-top: 0
+    }
 }
 
 @media screen and (max-width: 400px){
@@ -288,6 +296,7 @@ footer {
 
     .advertisment-text img{
         display: block;
+        margin-top: 50px;
     }
 
     header, .column-reverse{
